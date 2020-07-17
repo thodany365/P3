@@ -15,53 +15,85 @@ main{
 #haut{
    display: flex;
    flex-direction: row;
-   margin-top: 100px;
-   margin-left: 250px;
+   margin-top: 10%;
+   margin-left: 25%;
 }
 #bas{
    display: flex;
    flex-direction: row;
-   margin-top: 100px;
-   margin-left: 250px;
+   margin-top: 3%;
+   margin-left: 25%;
 }
-.lien1{
+.noteenchantée{
    background-color: #FBCFBB;
-   margin-right: 300px;
+   padding-top: 150px;
    text-align: center;
-   padding: 75px 40px;
+   margin-right: 55px;
+   width: 35%;
+   padding-bottom: 200px;
+   box-shadow: 5px 5px 5px 5px grey;
+   
 }
-.lien2{
+.chicfrançaise{
    background-color: #FAEEF4;
    text-align: center;
-   padding: 85px 30px ;
+   padding-top: 150px;
+   width: 35%;
+   box-shadow: 5px 5px 5px 5px grey;
 }
-.lien3{
+.délicepapilles{
    background-color: #F0EEEF;
-   margin-right: 300px;
+   width: 35%;
+   padding-top: 150px;
+   padding-bottom: 200px;
+   margin-right: 55px;
    text-align: center;
-   padding: 80px 30px;
+   box-shadow: 5px 5px 5px 5px grey;
 }
-.lien4{
+.palettedugout{
    background-color: #FAF7F8;
    text-align: center;
-   padding: 80px 40px;
+   padding-top: 150px;
+   width: 35%;
+   box-shadow: 5px 5px 5px 5px grey;
 }
 h1 {
    text-align: center;
-   color: #F7F60D;
-   font-size: 40px;
-   margin-top: 3px;
-   
-   
+   color: #fdcb46;
+   font-size: 90px;
+   margin-top: 5px; 
 }
 header {
-   background-color: #4FA067;
-   height: 60px;
-   
+   background-color: #579c87;
+   height: 150px;
+}
+aside{
+   display: flex;
+   justify-content: center;
+}
+mark{
+   display: flex;
+   padding: 20px;
+   margin: 20px;
+   background-color:#579c87 ;
+   color: #fdcb46;
+   font-size: 30px;
+   border-radius: 15px 15px 15px 15px;
 }
 footer{
    display: flex;
    flex-direction: row;
-   background-color:#4FA067 ;
-   margin-top: 50px;
+   background-color:#579c87 ;
+   color:#fdcb46;
+   position: sticky;
+   bottom: 0;
+   left: 0; 
+}
+.mention{
+   font-size: 25px;
+   margin-right: 65%;
+   margin-left: 4%;
+}
+.contact{
+   font-size: 25px;
 }
