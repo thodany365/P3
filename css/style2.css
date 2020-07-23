@@ -8,7 +8,14 @@ body{
   overflow-x: hidden;
 }
 main{
-  background-color: white;
+  background-color: #FBCFBB;
+  box-shadow: 5px 5px 5px 5px grey;
+  width: 80%;
+  margin-left: 120px;  
+}
+h2{
+  text-align: center;
+  font-size: 30px;
 }
 header {
   width: 100%;
@@ -16,8 +23,9 @@ header {
 header h1{
   color: #fdcb46;
   background: #579c87;
+  height: 100px;
   text-align: center;
-  font-size: 50px;
+  font-size: 80px;
   margin-top: 0;
 }
 a{
