@@ -4,13 +4,14 @@ body{
    margin: 0px;
    display: flex;
    flex-direction: column;
-  
    padding: 0px;
    overflow-x: hidden;
 }
 main{
    background-color: white;
-    
+}
+a{
+   text-decoration: none;
 }
 #haut{
    display: flex;

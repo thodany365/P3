@@ -1,0 +1,37 @@
+body{
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  overflow-x: hidden;
+}
+main{
+  background-color: white;
+}
+header {
+  width: 100%;
+}
+header h1{
+  color: #fdcb46;
+  background: #579c87;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0;
+}
+a{
+  text-decoration: none;
+}
+footer {
+  display: flex;
+  background: #579c87;
+  color: #fdcb46;
+  height: 50px;
+  font-size: 40px;
+  justify-content: space-between;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  padding: 0 2% 0 2%;
+}
