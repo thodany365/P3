@@ -88,12 +88,11 @@ footer{
    color:#fdcb46;
    position: sticky;
    bottom: 0;
-   left: 0; 
+   left: 0;
+   justify-content: space-between; 
 }
 .mention{
    font-size: 25px;
-   margin-right: 65%;
-   margin-left: 4%;
 }
 .contact{
    font-size: 25px;
