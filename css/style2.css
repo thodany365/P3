@@ -7,6 +7,22 @@ body{
   padding: 0px;
   overflow-x: hidden;
 }
+@font-face{
+  font-family: "gabriela";
+  src: url(../font/Gabriela.ttf);
+}
+@font-face{
+  font-family:"apples";
+  src: url(../font/apples.otf);
+}
+@font-face{
+  font-family:"Dancing";
+  src: url(../font/Dancing.ttf);
+}
+@font-face{
+  font-family: "Devonshire";
+  src: url(../font/Devonshire.ttf);
+}
 
 main1{
   background-color: #FBCFBB;
@@ -14,7 +30,7 @@ main1{
   width: 90%;
   margin-bottom: 130px;
   margin-left: 5%;
-  font-family: ;
+  font-family:"Dancing";
 }
 main2{
   background-color: #FAEEF4;
@@ -22,6 +38,7 @@ main2{
   width: 90%;
   margin-bottom: 130px;
   margin-left: 5%;
+  font-family: "gabriela";
 }
 main3{
   background-color: #DDE7E9;
@@ -29,6 +46,7 @@ main3{
   width: 90%;
   margin-bottom: 130px;
   margin-left: 5%;
+  font-family: "Devonshire";
 }
 main4{
   background-color: #EEF2E7;
@@ -36,6 +54,7 @@ main4{
   width: 90%;
   margin-bottom: 130px;
   margin-left: 5%;
+  font-family: "apples";
 }
 .gradient{
   margin-left: 330px;
@@ -67,6 +86,7 @@ main4{
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 60px;
+  margin-bottom: 65px;
 }
 article{
   display: flex;

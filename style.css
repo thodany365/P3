@@ -10,6 +10,24 @@ body{
 main{
    background-color: white;
 }
+
+@font-face{
+   font-family: "gabriela";
+   src: url(../font/Gabriela.ttf);
+}
+@font-face{
+   font-family:"apples";
+   src: url(../font/apples.otf);
+}
+@font-face{
+   font-family:"Dancing";
+   src: url(../font/Dancing.ttf);
+}
+@font-face{
+   font-family: "Devonshire";
+   src: url(../font/Devonshire.ttf);
+}
+
 a{
    text-decoration: none;
 }
@@ -41,8 +59,7 @@ a{
    margin-right: 55px;
    width: 35%;
    padding-bottom: 200px;
-   box-shadow: 5px 5px 5px 5px grey;
-  
+   box-shadow: 5px 5px 5px 5px grey; 
 }
 .chicfrançaise{
    background-color: #FAEEF4;
@@ -50,6 +67,7 @@ a{
    padding-top: 150px;
    width: 35%;
    box-shadow: 5px 5px 5px 5px grey;
+   
 }
 .délicepapilles{
    background-color: #DDE7E9;
@@ -58,7 +76,7 @@ a{
    padding-bottom: 200px;
    margin-right: 55px;
    text-align: center;
-   box-shadow: 5px 5px 5px 5px grey;
+   box-shadow: 5px 5px 5px 5px grey; 
 }
 .palettedugout{
    background-color: #EEF2E7;
