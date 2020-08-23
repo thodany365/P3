@@ -38,8 +38,9 @@ main2{
   width: 90%;
   margin-bottom: 130px;
   margin-left: 5%;
-  font-family: "gabriela";
+  font-family: "gabriela";  
 }
+
 main3{
   background-color: #DDE7E9;
   box-shadow: 5px 5px 5px 5px grey;
@@ -47,6 +48,7 @@ main3{
   margin-bottom: 130px;
   margin-left: 5%;
   font-family: "Devonshire";
+  font-size: 20px;
 }
 main4{
   background-color: #EEF2E7;

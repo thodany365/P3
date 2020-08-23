@@ -133,13 +133,27 @@ footer{
 }
 .lien1{
    font-family: "Dancing";
+   color: black;
 }
 .lien2{
    font-family: "gabriela";
+   margin-left: 50px;
+   margin-right: 50px;
+   background: linear-gradient( to right, rgb(247, 134, 5),rgb(94, 127, 233));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   
 }
 .lien3{
    font-family: "Devonshire";
+  
+   background: linear-gradient( to right, rgb(128, 229, 233),rgb(7, 56, 190));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 .lien4{
    font-family: "apples";
+   background: linear-gradient( to right, rgb(212, 209, 23),rgb(15, 105, 71));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
