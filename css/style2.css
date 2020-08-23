@@ -20,8 +20,8 @@ body{
   src: url(../font/Dancing.ttf);
 }
 @font-face{
-  font-family: "Devonshire";
-  src: url(../font/Devonshire.ttf);
+  font-family: "greatvibes";
+  src: url(../font/GreatVibes.otf);
 }
 
 main1{
@@ -40,6 +40,65 @@ main2{
   margin-left: 5%;
   font-family: "gabriela";  
 }
+.lechic-titre{
+  font-size: 30px;
+}
+.lechicalafrançaise-titre{
+  background: linear-gradient( to right, rgb(247, 134, 5),rgb(18, 57, 185));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lechic-couleur1{
+  color: chocolate;
+}
+.lechic-couleur2{
+  color: rgb(176, 120, 230);
+}
+.lechic-couleur3{
+  color: rgb(52, 12, 161);
+}
+.separateurchic1-left{
+  width: 30%;
+  margin-top: 10%;
+  margin-left: 0%;
+  margin-bottom:-3%;
+  fill: chocolate;
+}
+.separateurchic1-right{
+  width: 30%;
+  margin-left: 70%;
+  margin-bottom: 6%;
+  margin-top: -42%;
+  fill: chocolate;
+}
+.separateurchic2-left{
+  width: 30%;
+  margin-top: 10%;
+  margin-left: 0%;
+  margin-bottom:-4%;
+  fill: rgb(176, 120, 230);
+}
+.separateurchic2-right{
+  width: 30%;
+  margin-left: 70%;
+  margin-bottom: 6%;
+  margin-top: -42%;
+  fill: rgb(176, 120, 230); 
+}
+.separateurchic3-left{
+  width: 30%;
+  margin-top: 10%;
+  margin-left: 0%;
+  margin-bottom:-4%;
+  fill: rgb(52, 12, 161);
+}
+.separateurchic3-right{
+  width: 30%;
+  margin-left: 70%;
+  margin-bottom: 6%;
+  margin-top: -42%;
+  fill: rgb(52, 12, 161); 
+}
 
 main3{
   background-color: #DDE7E9;
@@ -47,8 +106,30 @@ main3{
   width: 90%;
   margin-bottom: 130px;
   margin-left: 5%;
-  font-family: "Devonshire";
+  font-family: "greatvibes";
   font-size: 20px;
+}
+.delice-titre{
+  background: linear-gradient( to right,  rgb(128, 229, 233),rgb(7, 56, 190));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.papille-titre1{
+  font-size: 40px;
+}
+.separateurdelice-left{
+  width: 30%;
+  margin-top: 10%;
+  margin-left: 1%;
+  margin-bottom:-4%;
+  fill: rgb(7, 56, 190);
+}
+.separateurdelice-right{
+  width: 30%;
+  margin-left: 68%;
+  margin-bottom: 8%;
+  margin-top: -42%;
+  fill: rgb(7, 56, 190);
 }
 main4{
   background-color: #EEF2E7;
@@ -57,6 +138,29 @@ main4{
   margin-bottom: 130px;
   margin-left: 5%;
   font-family: "apples";
+}
+.palettedugout-titre{
+  font-size: 30px;
+}
+.lapalette-titre{
+  background: linear-gradient( to right,  rgb(212, 209, 23),rgb(15, 105, 71));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.separateursommet-left{
+  width: 30%;
+  margin-top: 10%;
+  margin-left: 1%;
+  margin-bottom:-3%;
+  fill: rgb(58, 145, 91);
+}
+
+.separateursommet-right{
+  width: 30%;
+  margin-left: 68%;
+  margin-bottom: 5%;
+  margin-top: -42%;
+  fill: rgb(58, 145, 91);
 }
 .gradient{
   margin-left: 330px;
@@ -99,7 +203,7 @@ article{
 
 h3 {
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
 }
 header {
   width: 100%;
@@ -118,14 +222,12 @@ a{
 
 P{
   margin-top: 0;
-  
-   
+  font: bold; 
 }
 h4{
   text-align: center;
   margin-top: 1px;
   margin-bottom: 32px;
-  font-size: 20px;
 }
 h2{
   text-align: center;
@@ -170,6 +272,7 @@ footer {
   align-items: center;
   display: flex;
   text-align: center;
+  font-size: 30px;
 }
 
 .hr::before,
@@ -179,16 +282,5 @@ footer {
   flex: 1;
   margin: 5px;
 }
-.separateur-left{
-  width: 30%;
-  margin-top: 10%;
-  margin-left: 1%;
-  margin-bottom:-3%;
-}
-.separateur-right{
-  width: 30%;
-  margin-left: 68%;
-  margin-bottom: 5%;
-  margin-top: -42%;
 
-}
+

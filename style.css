@@ -24,8 +24,8 @@ main{
    src: url('font/Dancing.ttf');
 }
 @font-face{
-   font-family: "Devonshire";
-   src: url('font/Devonshire.ttf');
+   font-family: "greatvibes";
+   src: url('font/greatvibes.otf');
 }
 
 a{
@@ -145,7 +145,7 @@ footer{
    
 }
 .lien3{
-   font-family: "Devonshire";
+   font-family: "greatvibes";
   
    background: linear-gradient( to right, rgb(128, 229, 233),rgb(7, 56, 190));
    -webkit-background-clip: text;
