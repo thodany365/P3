@@ -147,24 +147,24 @@ main4{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.separateursommet-left{
+.separateur-left{
   width: 30%;
   margin-top: 10%;
   margin-left: 1%;
   margin-bottom:-3%;
-  fill: rgb(58, 145, 91);
+  fill: url(#Gradient-left);
 }
 
-.separateursommet-right{
+.separateur-right{
   width: 30%;
   margin-left: 68%;
   margin-bottom: 5%;
   margin-top: -42%;
-  fill: rgb(58, 145, 91);
+  fill: url(#Gradient-right); 
 }
 .gradient{
-  margin-left: 330px;
-  margin-right: 330px;
+  margin-left: 45%;
+  margin-right: 49%;
   background: linear-gradient( to right, red,yellow);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
