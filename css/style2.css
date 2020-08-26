@@ -283,4 +283,21 @@ footer {
   margin: 5px;
 }
 
+/*version tablette et mobile*/
+
+@media all and (max-width:800px){
+ 
+  .gradient{
+    margin-left: 35%;
+    margin-right: 35%;
+  } 
+  .gradient-pied{
+    font-size: 55px;
+    margin-left: 15%;
+  }
+  footer {
+    height: 54px;
+    font-size: 28px;
+  }
+}
 
