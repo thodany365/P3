@@ -165,9 +165,11 @@ footer{
      background-color: #579c87;
      height: 90px;
    }
-   
    h1{
       font-size: 55px;
+   }
+   main{
+      justify-content: center;
    }
    #haut{
       margin-top: 20px;
@@ -176,6 +178,7 @@ footer{
 
    }
    #bas{
+      margin-top: 10px;
       flex-direction: column;
       justify-content: center;
    }
@@ -191,23 +194,24 @@ footer{
       margin-bottom: 20px;
       padding-top: 30px;
       margin-right: 35px;
-      margin-left: 35px;
+      margin-left: 50px;
       width: 85%;
       padding-bottom: 30px;
+      
    }
    .chicfrançaise{
       padding-top: 60px;
       padding-bottom: 60px;
       width: 85%;
       margin-right: 55px;
-      margin-left: 35px; 
+      margin-left: 50px; 
    }
    .délicepapilles{
       width: 85%;
       padding-top: 60px;
       padding-bottom: 60px;
       margin-right: 55px;
-      margin-left: 35px;
+      margin-left: 50px;
       margin-top: 20px;
       margin-bottom: 30px;
    }
@@ -216,15 +220,19 @@ footer{
       padding-bottom: 60px;
       width: 85%;
       margin-right: 55px;
-      margin-left: 35px;
+      margin-left: 50px;
    }
    footer{
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      height: 70px;
+      height: 60px;
       font-size: 30px;
-   }  
+   
+   } 
+   .mentions{
+      padding-top: 10px; 
+   }
+   .contact{
+      padding-top: 10px; 
+   }
    mark{
       display: flex;
       padding: 15px;
@@ -233,6 +241,36 @@ footer{
      
    }
 
+}
+@media all and (max-width: 400px){
+   .noteenchantée{
+      margin-left: 30px;
+   }
+   .chicfrançaise{
+      margin-left: 30px; 
+   }
+   .délicepapilles{
+      margin-left: 30px;
+   }
+   .palettedugout{
+      margin-left: 30px;
+   }
+   footer{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      height: 110px;
+      font-size: 30px;
+   } 
+   mark{
+      display: flex;
+      padding: 15px;
+      margin: 20px;
+      font-size: 25px;
+   }
+   .contact{
+      margin-bottom: 15px; 
+   }
 }
 
 
