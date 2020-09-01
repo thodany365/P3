@@ -288,16 +288,36 @@ footer {
 @media all and (max-width:800px){
  
   .gradient{
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 44%;
+    margin-right: 45%;
   } 
   .gradient-pied{
     font-size: 55px;
-    margin-left: 15%;
+    margin-left: 33%;
   }
   footer {
     height: 54px;
     font-size: 28px;
+  }
+  .mentions{
+    margin-top: 10px;
+  }
+  .contact{
+    margin-top: 10px; 
+  }
+  .lechic-titre{
+    font-size: 25px;
+  }
+  .separateurchic1-left,.separateurchic2-left,.separateurchic3-left{
+    margin-bottom: 3%;
+    width: 75%;
+    margin-left: 12%;
+  }
+  .separateurchic1-right,.separateurchic2-right,.separateurchic3-right{
+    width: 75%;
+    margin-left: 12%;
+    margin-top: -3%;
+
   }
 }
 
