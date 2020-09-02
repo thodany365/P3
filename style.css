@@ -8,6 +8,7 @@ body{
    overflow-x: hidden;
 }
 main{
+  
    background-color: white;
 }
 
@@ -161,6 +162,9 @@ footer{
 /*version tablette et mobile*/
 
 @media all and (max-width: 800px) {
+   body{
+      width: auto;
+   }
    header{
      background-color: #579c87;
      height: 90px;
@@ -169,6 +173,7 @@ footer{
       font-size: 55px;
    }
    main{
+      
       justify-content: center;
    }
    #haut{
@@ -193,7 +198,7 @@ footer{
    .noteenchantée{
       margin-bottom: 20px;
       padding-top: 50px;
-      margin-right: 35px;
+      margin-right: 17%;
       margin-left: 23%;
       width: 450px;
       height: 450px;
@@ -251,22 +256,22 @@ footer{
    }
    .noteenchantée{
       margin-left: 15%;
-      width: 260px;
+      width: 275px;
       height: 328px;
    }
    .chicfrançaise{
       margin-left: 15%;
-      width: 260px;
+      width: 275px;
       height: 328px; 
    }
    .délicepapilles{
       margin-left: 15%;
-      width: 260px;
+      width: 275px;
       height: 328px;
    }
    .palettedugout{
       margin-left: 15%;
-      width: 260px;
+      width: 275px;
       height: 328px;
    }
    footer{
@@ -285,6 +290,7 @@ footer{
    .contact{
       margin-bottom: 15px; 
    }
+   
 }
 
 
