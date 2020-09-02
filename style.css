@@ -184,43 +184,47 @@ footer{
    }
    .gradient{
       font-size: 40px;
-      margin-left: 100px;
-      margin-right: 100px;
+      margin-left: 40%;
+      margin-right: 40%;
       background: linear-gradient( to right, red,yellow);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
    }
    .noteenchantée{
       margin-bottom: 20px;
-      padding-top: 30px;
+      padding-top: 50px;
       margin-right: 35px;
-      margin-left: 50px;
-      width: 85%;
+      margin-left: 23%;
+      width: 450px;
+      height: 450px;
       padding-bottom: 30px;
       
    }
    .chicfrançaise{
       padding-top: 60px;
       padding-bottom: 60px;
-      width: 85%;
+      width: 450px;
+      height: 450px;
       margin-right: 55px;
-      margin-left: 50px; 
+      margin-left: 180px; 
    }
    .délicepapilles{
-      width: 85%;
+      width: 450px;
+      height: 450px;
       padding-top: 60px;
       padding-bottom: 60px;
       margin-right: 55px;
-      margin-left: 50px;
+      margin-left: 180px;
       margin-top: 20px;
       margin-bottom: 30px;
    }
    .palettedugout{
       padding-top: 60px;
       padding-bottom: 60px;
-      width: 85%;
+      width: 450px;
+      height: 450px;
       margin-right: 55px;
-      margin-left: 50px;
+      margin-left: 180px;
    }
    footer{
       height: 60px;
@@ -242,17 +246,28 @@ footer{
 
 }
 @media all and (max-width: 400px){
+   main{
+      width: 100%;
+   }
    .noteenchantée{
-      margin-left: 30px;
+      margin-left: 15%;
+      width: 260px;
+      height: 328px;
    }
    .chicfrançaise{
-      margin-left: 30px; 
+      margin-left: 15%;
+      width: 260px;
+      height: 328px; 
    }
    .délicepapilles{
-      margin-left: 30px;
+      margin-left: 15%;
+      width: 260px;
+      height: 328px;
    }
    .palettedugout{
-      margin-left: 30px;
+      margin-left: 15%;
+      width: 260px;
+      height: 328px;
    }
    footer{
       display: flex;
