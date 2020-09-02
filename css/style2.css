@@ -313,11 +313,11 @@ footer {
   }
   .plat{
     margin-left: 65px;
-    margin-right: 70px;
+    margin-right: 55px;
   }
   .dessert{
     margin-left: 45px;
-    margin-right: 55px;
+    margin-right: 37px;
   }
   article{
     flex-direction: column;
@@ -327,6 +327,7 @@ footer {
     height: 54px;
     font-size: 28px;
   }
+  
   .mentions{
     margin-top: 10px;
   }
@@ -345,7 +346,9 @@ footer {
     width: 75%;
     margin-left: 12%;
     margin-top: -3%;
-
+  }
+  main1{
+    height: auto;
   }
 }
 
