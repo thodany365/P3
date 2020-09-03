@@ -286,10 +286,10 @@ footer {
 /*version tablette et mobile*/
 
 @media all and (max-width:800px){
- 
+  
   .gradient{
-    margin-left: 35%;
-    margin-right: 25%;
+    margin-left: 32%;
+    margin-right: 35%;
   } 
   .gradient-pied{
     font-size: 45px;
@@ -326,6 +326,7 @@ footer {
   footer {
     height: 54px;
     font-size: 28px;
+    margin-top: 10px;
   }
   
   .mentions{
@@ -350,5 +351,8 @@ footer {
   main1{
     height: auto;
   }
+}
+@media all and (max-width:400px){
+
 }
 
