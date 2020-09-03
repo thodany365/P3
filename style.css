@@ -255,22 +255,22 @@ footer{
       width: 100%;
    }
    .noteenchantée{
-      margin-left: 13%;
+      margin-left: 24px;
       width: 275px;
       height: 328px;
    }
    .chicfrançaise{
-      margin-left: 13%;
+      margin-left: 24px;
       width: 275px;
       height: 328px; 
    }
    .délicepapilles{
-      margin-left: 13%;
+      margin-left: 24px;
       width: 275px;
       height: 328px;
    }
    .palettedugout{
-      margin-left: 13%;
+      margin-left: 24px;
       width: 275px;
       height: 328px;
    }
@@ -290,7 +290,6 @@ footer{
    .contact{
       margin-bottom: 15px; 
    }
-   
-}
+}   
 
 
