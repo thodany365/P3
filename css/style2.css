@@ -359,6 +359,59 @@ footer {
   }
 }
 @media all and (max-width:400px){
-
+h4{
+  font-size: 20px;
+}
+h3{
+  font-size: 25px;
+}
+h2{
+  font-size: 25px;
+}
+.hr{
+  text-align: center;
+}
+.separateurdelice-left{
+  width: 150px;
+  margin-left: 20px;
+  
+}
+.separateurdelice-right{
+  width: 150px;
+  margin-left: 20px;
+  
+}
+.separateur-left{
+  width: 200px;
+}
+.separateur-right{
+  width: 200px;
+  margin-left: 0px;
+}
+.dessert{
+  text-align: center;
+}
+.plat{
+ text-align: center;
+}
+.entrée{
+ 
+  text-align: center;
+}
+p{
+  margin-bottom: 10px;
+}
+article{
+  margin-bottom: 40px;
+}
+footer{
+ height: 45px;
+}
+.mentions{
+  font-size: 20px;
+}
+.contact{
+  font-size: 20px;
+}
 }
 
