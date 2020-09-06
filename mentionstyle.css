@@ -39,3 +39,24 @@ p{
 .liste1{
     text-align: center;
 }
+@media all and (max-width: 400px){
+    main{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    h1{
+     font-size: 55px;
+    }
+    header{
+        height: 90px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 15px;
+    }
+
+}
