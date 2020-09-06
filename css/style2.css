@@ -296,6 +296,9 @@ footer {
     margin-left: 12%;
     margin-top: -1%
   }
+  header h1{
+    font-size: 60px;
+  }
   h3{
     font-size: 30px;
   }
@@ -324,16 +327,19 @@ footer {
     text-align: center;
   }
   footer {
-    height: 54px;
-    font-size: 28px;
+    height: 75px;
+    font-size: 25px;
     margin-top: 10px;
+    padding-left: 20px;
   }
   
   .mentions{
     margin-top: 10px;
+    font-size: 25px;
   }
   .contact{
-    margin-top: 10px; 
+    margin-top: 10px;
+    font-size: 25px; 
   }
   .lechic-titre{
     font-size: 25px;
