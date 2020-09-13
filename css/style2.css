@@ -354,64 +354,100 @@ footer {
     margin-left: 12%;
     margin-top: -3%;
   }
+  .separateurdelice-left{
+    margin-left: -6%;
+    margin-top: 0%;
+    margin-bottom: -11%;
+  }
+  .separateurdelice-right{
+    margin-left: 75%; 
+  }
+  .separateur-left{
+    margin-bottom: -9%;
+  }
+  .dessert{
+    margin-left: 70px;
+    margin-right: 55px;
+  }
   main1{
     height: auto;
   }
 }
+@media all and (max-width:600px){
+  .hr{
+    padding-left: 140px;
+  }
+  .gradient-pied{
+    margin-left: 110px
+  }
+  .separateurdelice-left{
+    margin-left: 40px;
+    width: 270px;
+  }
+  .separateurdelice-right{
+    margin-left: 45px;
+    width: 270px;
+  }
+  .dessert{
+    margin-left: 68px;
+    margin-right: 55px;
+  }
+
+}
 @media all and (max-width:400px){
-h4{
-  font-size: 20px;
-}
-h3{
-  font-size: 25px;
-}
-h2{
-  font-size: 25px;
-}
-.hr{
+  h4{
+    font-size: 20px;
+  }
+  h3{
+    font-size: 25px;
+  }
+  h2{
+    font-size: 25px;
+  }
+  .hr{
+    text-align: center;
+  }
+  .separateurdelice-left{
+    width: 150px;
+    margin-left: 20px;
+    
+  }
+  .separateurdelice-right{
+    width: 150px;
+    margin-left: 20px;
+    
+  }
+  .separateur-left{
+    width: 200px;
+  }
+  .separateur-right{
+    width: 200px;
+    margin-left: 0px;
+  }
+  .dessert{
+    text-align: center;
+  }
+  .plat{
   text-align: center;
-}
-.separateurdelice-left{
-  width: 150px;
-  margin-left: 20px;
+  }
+  .entrée{
   
-}
-.separateurdelice-right{
-  width: 150px;
-  margin-left: 20px;
-  
-}
-.separateur-left{
-  width: 200px;
-}
-.separateur-right{
-  width: 200px;
-  margin-left: 0px;
-}
-.dessert{
-  text-align: center;
-}
-.plat{
- text-align: center;
-}
-.entrée{
- 
-  text-align: center;
-}
-p{
-  margin-bottom: 10px;
-}
-article{
-  margin-bottom: 40px;
-}
-footer{
- height: 45px;
-}
-.mentions{
-  font-size: 20px;
-}
-.contact{
-  font-size: 20px;
-}
+    text-align: center;
+  }
+  p{
+    margin-bottom: 10px;
+  }
+  article{
+    margin-bottom: 40px;
+  }
+  footer{
+  height: 45px;
+  }
+  .mentions{
+    font-size: 20px;
+  }
+  .contact{
+    font-size: 20px;
+  }
 }
 

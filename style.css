@@ -198,8 +198,8 @@ footer{
    .noteenchantée{
       margin-bottom: 20px;
       padding-top: 50px;
-      margin-right: 17%;
-      margin-left: 23%;
+      margin-right: 55px;
+      margin-left: 180px;
       width: 450px;
       height: 450px;
       padding-bottom: 30px;
@@ -250,9 +250,36 @@ footer{
    }
 
 }
+@media all and (max-width: 600px){
+   body{
+      width: auto;
+   }
+   .noteenchantée, .chicfrançaise, .délicepapilles, .palettedugout{
+      margin-left: 15px;
+      width: 510px;
+      height: 560px;
+   }
+   h3{
+      font-size: 35px;
+   }
+   
+   .contact{
+      margin-right: 4px;
+   }
+   mark{
+      font-size: 35px;
+   }
+   footer{
+      font-size: 35px;
+   }
+}
 @media all and (max-width: 400px){
+  
    main{
       width: 100%;
+   }
+   h3{
+      font-size: 30px;
    }
    .noteenchantée{
       margin-left: 45px;
@@ -287,6 +314,15 @@ footer{
    .contact{
       margin-bottom: 15px; 
    }
-}   
+} 
+@media all and (max-width: 300px){
+   
+   .noteenchantée, .chicfrançaise, .délicepapilles, .palettedugout {
+      margin-left: 30px;
+   }
+   mark{
+      margin-left: 23px;
+   }
+}  
 
 
