@@ -163,8 +163,8 @@ main4{
   fill: url(#Gradient-right); 
 }
 .gradient{
-  margin-left: 45%;
-  margin-right: 49%;
+  margin-left: 47%;
+  margin-right: 45%;
   background: linear-gradient( to right, red,yellow);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -270,7 +270,6 @@ footer {
 }
 .hr {
   align-items: center;
-  display: flex;
   text-align: center;
   font-size: 30px;
 }
@@ -293,22 +292,19 @@ footer {
   } 
   .gradient-pied{
     font-size: 45px;
-    margin-left: 12%;
+    margin-left: 20%;
     margin-top: -1%
   }
   header h1{
     font-size: 60px;
+    
   }
   h3{
     font-size: 30px;
-  }
-  .hr::before,
-  .hr::after{
-    content: none;
-  }
+  } 
   .hr{
    font-size: 22px;
-   padding-left: 62px;
+   
   }
   .entrée{
     margin-left: 74px;
@@ -335,11 +331,11 @@ footer {
   
   .mentions{
     margin-top: 10px;
-    font-size: 25px;
+    font-size: 35px;
   }
   .contact{
     margin-top: 10px;
-    font-size: 25px; 
+    font-size: 35px; 
   }
   .lechic-titre{
     font-size: 25px;
@@ -371,14 +367,12 @@ footer {
   }
   main1{
     height: auto;
+    
   }
 }
 @media all and (max-width:600px){
-  .hr{
-    padding-left: 140px;
-  }
-  .gradient-pied{
-    margin-left: 110px
+  body{
+    width: auto;
   }
   .separateurdelice-left{
     margin-left: 40px;
@@ -392,9 +386,21 @@ footer {
     margin-left: 68px;
     margin-right: 55px;
   }
+  
+  footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 110px;
+    font-size: 30px;
+ } 
 
 }
+
 @media all and (max-width:400px){
+  body{
+    width: auto;
+  }
   h4{
     font-size: 20px;
   }
@@ -441,13 +447,21 @@ footer {
     margin-bottom: 40px;
   }
   footer{
-  height: 45px;
-  }
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 110px;
+    font-size: 30px;
+ } 
   .mentions{
-    font-size: 20px;
+    font-size: 30px;
   }
   .contact{
-    font-size: 20px;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .gradient-pied{
+    margin-left: 10%;
   }
 }
 
