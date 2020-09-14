@@ -324,12 +324,13 @@ footer{
       margin-left: 23px;
    }
 } 
-@keyframes animation{
+
+@keyframes dot{
    from{
       transform: translateY(0px);
    }
    to{
-      transform: translateY(20px);
+      transform: translateY(0px);
    }
 } 
 
