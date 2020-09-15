@@ -328,7 +328,6 @@ footer {
     margin-top: 10px;
     padding-left: 20px;
   }
-  
   .mentions{
     margin-top: 10px;
     font-size: 35px;
@@ -367,7 +366,6 @@ footer {
   }
   main1{
     height: auto;
-    
   }
 }
 @media all and (max-width:600px){
@@ -400,7 +398,6 @@ footer {
     margin-left: 68px;
     margin-right: 55px;
   }
-  
   footer{
     display: flex;
     flex-direction: column;
