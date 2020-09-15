@@ -60,43 +60,43 @@ main2{
 .separateurchic1-left{
   width: 30%;
   margin-top: 10%;
-  margin-left: 0%;
-  margin-bottom:-3%;
+  margin-left: -8%;
+  margin-bottom:-4%;
   fill: chocolate;
 }
 .separateurchic1-right{
   width: 30%;
-  margin-left: 70%;
+  margin-left: 78%;
   margin-bottom: 6%;
-  margin-top: -42%;
+  margin-top: -13%;
   fill: chocolate;
 }
 .separateurchic2-left{
-  width: 30%;
+  width: 31%;
   margin-top: 10%;
-  margin-left: 0%;
+  margin-left: -8%;
   margin-bottom:-4%;
   fill: rgb(176, 120, 230);
 }
 .separateurchic2-right{
   width: 30%;
-  margin-left: 70%;
+  margin-left: 78%;
   margin-bottom: 6%;
-  margin-top: -42%;
+  margin-top: -13%;
   fill: rgb(176, 120, 230); 
 }
 .separateurchic3-left{
-  width: 30%;
+  width: 31%;
   margin-top: 10%;
-  margin-left: 0%;
+  margin-left: -8%;
   margin-bottom:-4%;
   fill: rgb(52, 12, 161);
 }
 .separateurchic3-right{
-  width: 30%;
-  margin-left: 70%;
+  width: 31%;
+  margin-left: 78%;
   margin-bottom: 6%;
-  margin-top: -42%;
+  margin-top: -13%;
   fill: rgb(52, 12, 161); 
 }
 
@@ -342,12 +342,12 @@ footer {
   }
   .separateurchic1-left,.separateurchic2-left,.separateurchic3-left{
     margin-bottom: 3%;
-    width: 75%;
-    margin-left: 12%;
+    width: 50%;
+    margin-left: 24%;
   }
   .separateurchic1-right,.separateurchic2-right,.separateurchic3-right{
-    width: 75%;
-    margin-left: 12%;
+    width: 50%;
+    margin-left: 24%;
     margin-top: -3%;
   }
   .separateurdelice-left{
@@ -374,13 +374,27 @@ footer {
   body{
     width: auto;
   }
+  .papille-titre1{
+    margin-top: 30px;
+  }
   .separateurdelice-left{
-    margin-left: 40px;
-    width: 270px;
+    margin-left: 0px;
+    width: 100%;
   }
   .separateurdelice-right{
-    margin-left: 45px;
-    width: 270px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .palettedugout-titre{
+    margin-top: 25px;
+  }
+  .separateur-left{
+    width: 80%;
+    margin-left: 35px;
+  }
+  .separateur-right{
+    width: 80%;
+    margin-left: 25px;
   }
   .dessert{
     margin-left: 68px;
@@ -413,22 +427,37 @@ footer {
   .hr{
     text-align: center;
   }
+  .separateurchic1-left,.separateurchic2-left,.separateurchic3-left{
+    margin-bottom: 3%;
+    width: 60%;
+    margin-left: 0%;
+  }
+  .separateurchic1-right,.separateurchic2-right,.separateurchic3-right{
+    width: 60%;
+    margin-left: 0%;
+    margin-top: -3%;
+  }
+  .papille-titre1{
+    margin-top: 20px;
+  }
+  .palettedugout-titre{
+    margin-top: 25px;
+  }
   .separateurdelice-left{
-    width: 150px;
-    margin-left: 20px;
-    
+    width: 65%;
+    margin-left: 0px;
   }
   .separateurdelice-right{
-    width: 150px;
-    margin-left: 20px;
-    
+    width: 65%;
+    margin-left: 0px;
   }
   .separateur-left{
-    width: 200px;
+    width: 110%;
+    margin-left: 0px;
   }
   .separateur-right{
-    width: 200px;
-    margin-left: 0px;
+    width: 110%;
+    margin-left: -20px;
   }
   .dessert{
     text-align: center;

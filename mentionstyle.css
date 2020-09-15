@@ -39,6 +39,18 @@ p{
 .liste1{
     text-align: center;
 }
+@media all and (max-width: 800px){
+ body{
+    width: auto;
+ }
+ main{
+    width: auto;
+ }
+ header{
+   font-size: 40px;
+   width: auto;
+ }
+}
 @media all and (max-width: 400px){
     main{
         margin-left: 20px;
