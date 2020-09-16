@@ -116,9 +116,7 @@ mark{
 }
 .dot{
    margin-left: 5px;
-   animation-name: animation;
-   animation-duration: 2s;
-   animation-iteration-count: infinite;
+   animation: animation 500ms ease-in infinite alternate;
 }
 .dot--1 {
   animation-delay: 100ms;
