@@ -60,42 +60,42 @@ main2{
 .separateurchic1-left{
   width: 30%;
   margin-top: 10%;
-  margin-left: -8%;
-  margin-bottom:-4%;
+  margin-left: -10%;
+  margin-bottom: -33px;
   fill: chocolate;
 }
 .separateurchic1-right{
   width: 30%;
-  margin-left: 78%;
-  margin-bottom: 6%;
+  margin-left: 80%;
+  margin-bottom: 30px;
   margin-top: -13%;
   fill: chocolate;
 }
 .separateurchic2-left{
-  width: 31%;
+  width: 30%;
   margin-top: 10%;
-  margin-left: -8%;
-  margin-bottom:-4%;
+  margin-left: -10%;
+  margin-bottom:-33px;
   fill: rgb(176, 120, 230);
 }
 .separateurchic2-right{
   width: 30%;
-  margin-left: 78%;
-  margin-bottom: 6%;
+  margin-left: 80%;
+  margin-bottom: 30px;
   margin-top: -13%;
   fill: rgb(176, 120, 230); 
 }
 .separateurchic3-left{
-  width: 31%;
+  width: 30%;
   margin-top: 10%;
-  margin-left: -8%;
-  margin-bottom:-4%;
+  margin-left: -10%;
+  margin-bottom:-33px;
   fill: rgb(52, 12, 161);
 }
 .separateurchic3-right{
-  width: 31%;
-  margin-left: 78%;
-  margin-bottom: 6%;
+  width: 30%;
+  margin-left: 80%;
+  margin-bottom: 30px;
   margin-top: -13%;
   fill: rgb(52, 12, 161); 
 }
@@ -121,13 +121,13 @@ main3{
   width: 30%;
   margin-top: 10%;
   margin-left: 1%;
-  margin-bottom:-4%;
+  margin-bottom:-35px;
   fill: rgb(7, 56, 190);
 }
 .separateurdelice-right{
   width: 30%;
   margin-left: 68%;
-  margin-bottom: 8%;
+  margin-bottom: 35px;
   margin-top: -42%;
   fill: rgb(7, 56, 190);
 }
@@ -151,14 +151,14 @@ main4{
   width: 30%;
   margin-top: 10%;
   margin-left: 1%;
-  margin-bottom:-3%;
+  margin-bottom: -25px;
   fill: url(#Gradient-left);
 }
 
 .separateur-right{
   width: 30%;
   margin-left: 68%;
-  margin-bottom: 5%;
+  margin-bottom: 25px;
   margin-top: -42%;
   fill: url(#Gradient-right); 
 }
@@ -297,6 +297,43 @@ footer {
 
 /*version tablette et mobile*/
 
+@media all and (max-width:1000px){
+  .separateurchic1-left,.separateurchic2-left,.separateurchic3-left{
+    margin-bottom: 3%;
+    width: 50%;
+    margin-left: 24%;
+  }
+  .separateurchic1-right,.separateurchic2-right,.separateurchic3-right{
+    width: 50%;
+    margin-left: 24%;
+    margin-top: 6%;
+  }
+  .separateurdelice-left{
+    margin-left: -6%;
+    margin-top: 0%;
+    margin-bottom: -11%;
+  }
+  .separateurdelice-right{
+    margin-left: 75%; 
+  }
+  .separateurdelice-left{
+    margin-left: -6%;
+    margin-top: 0%;
+    margin-bottom: -38px;
+  }
+  .separateurdelice-right{
+    margin-left: 75%;
+    margin-bottom: 30px; 
+  }
+  .separateur-right{
+    margin-left: 75%;
+  }
+  .separateur-left{
+    margin-left: -30px;
+    margin-bottom: -30px;
+  }
+ 
+}
 @media all and (max-width:800px){
   
   .gradient{
@@ -360,18 +397,23 @@ footer {
   .separateurchic1-right,.separateurchic2-right,.separateurchic3-right{
     width: 50%;
     margin-left: 24%;
-    margin-top: -3%;
+    margin-top: 6%;
   }
   .separateurdelice-left{
-    margin-left: -6%;
+    margin-left: -10%;
     margin-top: 0%;
-    margin-bottom: -11%;
+    margin-bottom: -38px;
   }
   .separateurdelice-right{
-    margin-left: 75%; 
+    margin-left: 80%;
+    margin-bottom: 30px; 
+  }
+  .separateur-right{
+    margin-left: 75%;
   }
   .separateur-left{
-    margin-bottom: -9%;
+    margin-left: -30px;
+    margin-bottom: -30px;
   }
   .dessert{
     margin-left: 70px;
@@ -385,27 +427,37 @@ footer {
   body{
     width: auto;
   }
-  .papille-titre1{
-    margin-top: 30px;
+  .separateurchic1-right,.separateurchic2-right,.separateurchic3-right{
+    width: 50%;
+    margin-left: 24%;
+    margin-top: 6%;
+  }
+  h4{
+    margin: auto;
+    font-size: 25px;
   }
   .separateurdelice-left{
-    margin-left: 0px;
-    width: 100%;
+    width: 50%;
+    margin-left: 26%;
+    margin-top: 0%;
+    margin-bottom: -15px;
   }
   .separateurdelice-right{
-    margin-left: 0px;
-    width: 100%;
+    width: 50%;
+    margin-left: 26%;
+    margin-bottom: 8px; 
   }
   .palettedugout-titre{
     margin-top: 25px;
   }
   .separateur-left{
     width: 80%;
-    margin-left: 35px;
+    margin-left: 10%;
   }
   .separateur-right{
     width: 80%;
-    margin-left: 25px;
+    margin-left: 10%;
+    margin-top: 3px;
   }
   .dessert{
     margin-left: 68px;
@@ -445,7 +497,7 @@ footer {
   .separateurchic1-right,.separateurchic2-right,.separateurchic3-right{
     width: 60%;
     margin-left: 0%;
-    margin-top: -3%;
+    margin-top: 6%;
   }
   .papille-titre1{
     margin-top: 20px;
@@ -456,17 +508,18 @@ footer {
   .separateurdelice-left{
     width: 65%;
     margin-left: 0px;
+    margin-bottom: -35px;
   }
   .separateurdelice-right{
     width: 65%;
     margin-left: 0px;
   }
   .separateur-left{
-    width: 110%;
+    width: 80%;
     margin-left: 0px;
   }
   .separateur-right{
-    width: 110%;
+    width: 80%;
     margin-left: -20px;
   }
   .dessert{
