@@ -293,7 +293,25 @@ footer {
   flex-direction: row;
   margin-bottom: 60px;
 }
-
+h4 {
+  text-align: center;
+}
+span {
+  position: relative
+}
+span:before {
+  content:"";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  transition: all 1s ease-in-out;
+  background: black;
+}
+span:hover:before {
+  width: 100%;
+}
 
 /*version tablette et mobile*/
 
@@ -332,7 +350,21 @@ footer {
     margin-left: -30px;
     margin-bottom: -30px;
   }
- 
+  h4{
+    font-size: 30px;
+  }
+  .entrée{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .plat{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .dessert{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 }
 @media all and (max-width:800px){
   
