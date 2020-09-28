@@ -24,21 +24,23 @@ body{
   src: url(../font/GreatVibes.otf);
 }
 
-main1{
+.menu1{
   background-color: #FBCFBB;
   box-shadow: 5px 5px 5px 5px grey;
   width: 90%;
   margin-bottom: 130px;
   margin-left: 5%;
   font-family:"Dancing";
+  padding-top: 20px;
 }
-main2{
+.menu2{
   background-color: #FAEEF4;
   box-shadow: 5px 5px 5px 5px grey;
   width: 90%;
   margin-bottom: 130px;
   margin-left: 5%;
-  font-family: "gabriela";  
+  font-family: "gabriela";
+  padding-top: 20px;  
 }
 .lechic-titre{
   font-size: 30px;
@@ -100,7 +102,7 @@ main2{
   fill: rgb(52, 12, 161); 
 }
 
-main3{
+.menu3{
   background-color: #DDE7E9;
   box-shadow: 5px 5px 5px 5px grey;
   width: 90%;
@@ -108,6 +110,7 @@ main3{
   margin-left: 5%;
   font-family: "greatvibes";
   font-size: 20px;
+  padding-top: 20px;
 }
 .delice-titre{
   background: linear-gradient( to right,  rgb(128, 229, 233),rgb(7, 56, 190));
@@ -159,13 +162,14 @@ main3{
   margin-top: -42%;
   fill:#7BB2D4;
 }
-main4{
+.menu4{
   background-color: #EEF2E7;
   box-shadow: 5px 5px 5px 5px grey;
   width: 90%;
   margin-bottom: 130px;
   margin-left: 5%;
   font-family: "apples";
+  padding-top: 20px;
 }
 .palettedugout-titre{
   font-size: 30px;
@@ -232,6 +236,7 @@ article{
 h3 {
   text-align: center;
   font-size: 50px;
+  
 }
 header {
   width: 100%;
@@ -596,7 +601,7 @@ span7:hover:before{
     margin-left: 70px;
     margin-right: 55px;
   }
-  main1{
+  .menu1{
     height: auto;
   }
   .trait_de_droite{
