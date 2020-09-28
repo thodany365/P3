@@ -117,19 +117,47 @@ main3{
 .papille-titre1{
   font-size: 40px;
 }
-.separateurdelice-left{
+.separateurdelice1-left{
   width: 30%;
   margin-top: 10%;
   margin-left: 1%;
   margin-bottom:-35px;
-  fill: rgb(7, 56, 190);
+  fill: #0C5F9B;
 }
-.separateurdelice-right{
+.separateurdelice1-right{
   width: 30%;
   margin-left: 68%;
   margin-bottom: 35px;
   margin-top: -42%;
-  fill: rgb(7, 56, 190);
+  fill: #0C5F9B;
+}
+.separateurdelice2-left{
+  width: 30%;
+  margin-top: 10%;
+  margin-left: 1%;
+  margin-bottom:-35px;
+  fill: #3D8AC1;
+}
+.separateurdelice2-right{
+  width: 30%;
+  margin-left: 68%;
+  margin-bottom: 35px;
+  margin-top: -42%;
+  fill: #3D8AC1;
+}
+.separateurdelice3-left{
+  width: 30%;
+  margin-top: 10%;
+  margin-left: 1%;
+  margin-bottom:-35px;
+  fill:#7BB2D4;
+}
+.separateurdelice3-right{
+  width: 30%;
+  margin-left: 68%;
+  margin-bottom: 35px;
+  margin-top: -42%;
+  fill:#7BB2D4;
 }
 main4{
   background-color: #EEF2E7;
@@ -274,7 +302,7 @@ footer {
   padding: 0px;
   margin: auto;
   margin-right: 30px;
-  width: 600px;
+  width: 30%;
   height: 0px;
  
 }
@@ -284,7 +312,7 @@ footer {
   padding: 0px;
   margin: auto;
   margin-left: 30px;
-  width: 600px;
+  width: 30%;
   height: 0px;
   
 }
@@ -310,6 +338,118 @@ span:before {
   background: black;
 }
 span:hover:before {
+  width: 100%;
+}
+span1{
+  position: relative;
+}
+span1:before{
+  content:"";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0px;
+  height: 2px;
+  transition: all 1s ease-in-out;
+  background: chocolate;
+}
+span1:hover:before{
+  width: 100%;
+}
+span2{
+  position: relative;
+}
+span2:before{
+  content:"";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0px;
+  height: 2px;
+  transition: all 1s ease-in-out;
+  background: rgb(176, 120, 230);
+}
+span2:hover:before{
+  width: 100%;
+}
+span3{
+  position: relative;
+}
+span3:before{
+  content:"";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0px;
+  height: 2px;
+  transition: all 1s ease-in-out;
+  background:rgb(52, 12, 161);
+}
+span3:hover:before{
+  width: 100%;
+}
+span4{
+  position: relative;
+}
+span4:before{
+  content:"";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0px;
+  height: 2px;
+  transition: all 1s ease-in-out;
+  background: #0C5F9B;
+}
+span4:hover:before{
+  width: 100%;
+}
+span5{
+  position: relative;
+}
+span5:before{
+  content:"";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0px;
+  height: 2px;
+  transition: all 1s ease-in-out;
+  background:#3D8AC1;
+}
+span5:hover:before{
+  width: 100%;
+}
+span6{
+  position: relative;
+}
+span6:before{
+  content:"";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0px;
+  height: 2px;
+  transition: all 1s ease-in-out;
+  background:#7BB2D4;
+}
+span6:hover:before{
+  width: 100%;
+}
+span7{
+  position: relative;
+}
+span7:before{
+  content:"";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0px;
+  height: 2px;
+  transition: all 1s ease-in-out;
+  background:#22AA2A;
+}
+span7:hover:before{
   width: 100%;
 }
 
@@ -365,6 +505,11 @@ span:hover:before {
     margin-left: 50px;
     margin-right: 50px;
   }
+  .gradient-pied{
+    font-size: 45px;
+    margin-left: 35%;
+    margin-top: -1%
+  }
 }
 @media all and (max-width:800px){
   
@@ -374,7 +519,7 @@ span:hover:before {
   } 
   .gradient-pied{
     font-size: 45px;
-    margin-left: 20%;
+    margin-left: 30%;
     margin-top: -1%
   }
   header h1{
@@ -454,6 +599,12 @@ span:hover:before {
   main1{
     height: auto;
   }
+  .trait_de_droite{
+    width: 25%;
+  }
+  .trait_de_gauche{
+    width: 25%;
+  }
 }
 @media all and (max-width:600px){
   body{
@@ -464,9 +615,14 @@ span:hover:before {
     margin-left: 24%;
     margin-top: 6%;
   }
+  .gradient-pied{
+    font-size: 45px;
+    margin-left: 20%;
+    margin-top: -1%
+  }
   h4{
     margin: auto;
-    font-size: 25px;
+    font-size: 20px;
   }
   .separateurdelice-left{
     width: 50%;
@@ -501,7 +657,13 @@ span:hover:before {
     text-align: center;
     height: 110px;
     font-size: 30px;
- } 
+  }
+  .trait_de_gauche{
+    width: 15%;
+  }
+  .trait_de_droite{
+    width: 15%;
+  } 
 
 }
 
@@ -510,7 +672,7 @@ span:hover:before {
     width: auto;
   }
   h4{
-    font-size: 20px;
+    font-size: 14px;
   }  
   h3{
     font-size: 25px;
