@@ -62,13 +62,13 @@ body{
 .separateurchic1-left{
   width: 30%;
   margin-top: 10%;
-  margin-left: -10%;
+  margin-left: -4%;
   margin-bottom: -33px;
   fill: chocolate;
 }
 .separateurchic1-right{
   width: 30%;
-  margin-left: 80%;
+  margin-left: 75%;
   margin-bottom: 30px;
   margin-top: -13%;
   fill: chocolate;
@@ -76,13 +76,13 @@ body{
 .separateurchic2-left{
   width: 30%;
   margin-top: 10%;
-  margin-left: -10%;
+  margin-left: -4%;
   margin-bottom:-33px;
   fill: rgb(176, 120, 230);
 }
 .separateurchic2-right{
   width: 30%;
-  margin-left: 80%;
+  margin-left: 75%;
   margin-bottom: 30px;
   margin-top: -13%;
   fill: rgb(176, 120, 230); 
@@ -90,13 +90,13 @@ body{
 .separateurchic3-left{
   width: 30%;
   margin-top: 10%;
-  margin-left: -10%;
+  margin-left: -4%;
   margin-bottom:-33px;
   fill: rgb(52, 12, 161);
 }
 .separateurchic3-right{
   width: 30%;
-  margin-left: 80%;
+  margin-left: 75%;
   margin-bottom: 30px;
   margin-top: -13%;
   fill: rgb(52, 12, 161); 
@@ -232,11 +232,9 @@ article{
   justify-content: space-between;
   font-size: 25px;
 }
-
 h3 {
   text-align: center;
   font-size: 50px;
-  
 }
 header {
   width: 100%;
@@ -252,7 +250,6 @@ header h1{
 a{
   text-decoration: none;
 }
-
 p{
   margin-top: 0;
   font: bold;
@@ -266,13 +263,10 @@ h2{
   text-align: center;
   font-size: 30px;
 }
-
 .icon{
   text-align: center;
   font-size: 50px;
-  
 }
-
 .pied{
   display: flex;
   flex-direction: row;
@@ -281,7 +275,6 @@ h2{
   margin-bottom: 80px;
   font: bold;
 }
-
 footer {
   display: flex;
   background: #579c87;
@@ -309,7 +302,6 @@ footer {
   margin-right: 30px;
   width: 30%;
   height: 0px;
- 
 }
 .trait_de_droite{
   border: 1px solid black;
@@ -319,7 +311,6 @@ footer {
   margin-left: 30px;
   width: 30%;
   height: 0px;
-  
 }
 .trait_sous_titre{
   display: flex;
@@ -345,10 +336,10 @@ span:before {
 span:hover:before {
   width: 100%;
 }
-span1{
+.lechic-titre span{
   position: relative;
 }
-span1:before{
+.lechic-titre span:before{
   content:"";
   position: absolute;
   bottom: 0;
@@ -358,13 +349,13 @@ span1:before{
   transition: all 1s ease-in-out;
   background: chocolate;
 }
-span1:hover:before{
+.lechic-titre span:hover:before{
   width: 100%;
 }
-span2{
+.lechic-titre2 span{
   position: relative;
 }
-span2:before{
+.lechic-titre2 span:before{
   content:"";
   position: absolute;
   bottom: 0;
@@ -374,13 +365,13 @@ span2:before{
   transition: all 1s ease-in-out;
   background: rgb(176, 120, 230);
 }
-span2:hover:before{
+.lechic-titre2 span:hover:before{
   width: 100%;
 }
-span3{
+.lechic-titre3 span{
   position: relative;
 }
-span3:before{
+.lechic-titre3 span:before{
   content:"";
   position: absolute;
   bottom: 0;
@@ -390,13 +381,13 @@ span3:before{
   transition: all 1s ease-in-out;
   background:rgb(52, 12, 161);
 }
-span3:hover:before{
+.lechic-titre3 span:hover:before{
   width: 100%;
 }
-span4{
+.papille-titre1 span{
   position: relative;
 }
-span4:before{
+.papille-titre1 span:before{
   content:"";
   position: absolute;
   bottom: 0;
@@ -406,13 +397,13 @@ span4:before{
   transition: all 1s ease-in-out;
   background: #0C5F9B;
 }
-span4:hover:before{
+.papille-titre1 span:hover:before{
   width: 100%;
 }
-span5{
+.papille-titre2 span{
   position: relative;
 }
-span5:before{
+.papille-titre2 span:before{
   content:"";
   position: absolute;
   bottom: 0;
@@ -422,13 +413,13 @@ span5:before{
   transition: all 1s ease-in-out;
   background:#3D8AC1;
 }
-span5:hover:before{
+.papille-titre2 span:hover:before{
   width: 100%;
 }
-span6{
+.papille-titre3 span{
   position: relative;
 }
-span6:before{
+.papille-titre3 span:before{
   content:"";
   position: absolute;
   bottom: 0;
@@ -438,13 +429,13 @@ span6:before{
   transition: all 1s ease-in-out;
   background:#7BB2D4;
 }
-span6:hover:before{
+.papille-titre3 span:hover:before{
   width: 100%;
 }
-span7{
+.palettedugout-titre span{
   position: relative;
 }
-span7:before{
+.palettedugout-titre span:before{
   content:"";
   position: absolute;
   bottom: 0;
@@ -454,7 +445,7 @@ span7:before{
   transition: all 1s ease-in-out;
   background:#22AA2A;
 }
-span7:hover:before{
+.palettedugout-titre span:hover:before{
   width: 100%;
 }
 
@@ -496,7 +487,7 @@ span7:hover:before{
     margin-bottom: -30px;
   }
   h4{
-    font-size: 30px;
+    font-size: 34px;
   }
   .entrée{
     margin-left: 50px;
@@ -581,14 +572,32 @@ span7:hover:before{
     margin-left: 24%;
     margin-top: 6%;
   }
-  .separateurdelice-left{
-    margin-left: -10%;
-    margin-top: 0%;
-    margin-bottom: -38px;
+  .separateurdelice1-left{
+    width: 100%;
+    margin-bottom: 0px;
   }
-  .separateurdelice-right{
-    margin-left: 80%;
-    margin-bottom: 30px; 
+  .separateurdelice1-right{
+    width: 65%;
+    margin-left: 90px;
+    margin-top: 1px;
+  }
+  .separateurdelice2-left{
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .separateurdelice2-right{
+    width: 65%;
+    margin-left: 90px;
+    margin-top: 1px;
+  }
+  .separateurdelice3-left{
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .separateurdelice3-right{
+    width: 65%;
+    margin-left: 90px;
+    margin-top: 1px;
   }
   .separateur-right{
     margin-left: 75%;
@@ -627,7 +636,7 @@ span7:hover:before{
   }
   h4{
     margin: auto;
-    font-size: 20px;
+    font-size: 30px;
   }
   .separateurdelice-left{
     width: 50%;
@@ -652,6 +661,33 @@ span7:hover:before{
     margin-left: 10%;
     margin-top: 3px;
   }
+  .separateurdelice1-left{
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .separateurdelice1-right{
+    width: 65%;
+    margin-left: 60px;
+    margin-top: 1px;
+  }
+  .separateurdelice2-left{
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .separateurdelice2-right{
+    width: 65%;
+    margin-left: 60px;
+    margin-top: 1px;
+  }
+  .separateurdelice3-left{
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .separateurdelice3-right{
+    width: 65%;
+    margin-left: 60px;
+    margin-top: 1px;
+  }
   .dessert{
     margin-left: 68px;
     margin-right: 55px;
@@ -664,10 +700,10 @@ span7:hover:before{
     font-size: 30px;
   }
   .trait_de_gauche{
-    width: 15%;
+    display: none;
   }
   .trait_de_droite{
-    width: 15%;
+    display: none;
   } 
 
 }
@@ -677,7 +713,7 @@ span7:hover:before{
     width: auto;
   }
   h4{
-    font-size: 14px;
+    font-size: 30px;
   }  
   h3{
     font-size: 25px;
@@ -704,22 +740,35 @@ span7:hover:before{
   .palettedugout-titre{
     margin-top: 25px;
   }
-  .separateurdelice-left{
-    width: 65%;
-    margin-left: 0px;
+  .separateurdelice1-left{
+    width: 100%;
+    margin-left: -10px;
     margin-bottom: -35px;
   }
-  .separateurdelice-right{
+  .separateurdelice1-right{
     width: 65%;
     margin-left: 0px;
+    margin-top: 1px;
   }
-  .separateur-left{
-    width: 80%;
+  .separateurdelice2-left{
+    width: 100%;
+    margin-left: -10px;
+    margin-bottom: 0px;
+  }
+  .separateurdelice2-right{
+    width: 65%;
     margin-left: 0px;
+    margin-top: 1px;
   }
-  .separateur-right{
-    width: 80%;
-    margin-left: -20px;
+  .separateurdelice3-left{
+    width: 100%;
+    margin-left: -10px;
+    margin-bottom: 0px;
+  }
+  .separateurdelice3-right{
+    width: 65%;
+    margin-left: 0px;
+    margin-top: 1px;
   }
   .dessert{
     text-align: center;
@@ -728,7 +777,6 @@ span7:hover:before{
   text-align: center;
   }
   .entrée{
-  
     text-align: center;
   }
   p{
@@ -755,10 +803,30 @@ span7:hover:before{
     margin-left: 10%;
   }
   .trait_de_gauche{
-    border: none;
+    display: none;
   }
   .trait_de_droite{
-    border:none
+    display: none;
   }
+}
+@keyframes wiggle {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.mentions:hover {
+  animation: wiggle 0.5s infinite
+}
+.contact:hover{
+  animation: wiggle 0.5s infinite 
 }
 
