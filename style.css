@@ -33,9 +33,10 @@ a{
    text-decoration: none;
 }
 .gradient{
-   font-size: 50px;
+   font-size: 45px;
    margin-left: 43%;
    margin-right: 40%;
+   margin-bottom: -30px;
    background: linear-gradient( to right, red,yellow);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
@@ -56,11 +57,11 @@ a{
 }
 .noteenchantée{
    background-color: #FBCFBB;
-   padding-top: 93px;
+   padding-top: 150px;
    text-align: center;
    margin-right: 55px;
    width: 350px;
-   padding-bottom: 200px;
+   padding-bottom: 170px;
    box-shadow: 5px 5px 5px 5px grey;
    font-size: 20px;
    
